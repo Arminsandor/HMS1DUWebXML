@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Órarend</title>
+    <style>
+       table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+th {
+    background-color: #005cab;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #cce5ff;
+    transition: background-color 0.3s ease-in-out;
+}
+
+td:first-child {
+    font-weight: bold;
+    color: #0056b3;
+}
+
+td:last-child {
+    font-style: italic;
+    color: #6c757d;
+    text-align: center;
+}
+
+th, td {
+    text-align: center;
+}
+
+       
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Kurzus</th>
+                <th>Időpont</th>
+                <th>Helyszín</th>
+                <th>Oktató</th>
+                <th>Szak</th>
+                <th>ID</th>
+                <th>Típus</th>
+            </tr>
+        </thead>
+        <tbody>
+           <tr>
+                <td>Numerikus Matematika</td>
+                <td>Hétfő | 8:00 - 9:35</td>
+                <td>Kabar Terem</td>
+                <td>Dr. Földvári Attila</td>
+                <td>Programtervező informatikus</td>
+                <td>01</td>
+                <td>Elmélet</td>
+            </tr>
+            <tr>
+                <td>Számításelmélet</td>
+                <td>Hétfő | 10:00 - 12:55</td>
+                <td>Online</td>
+                <td>Dr. Veres Laura</td>
+                <td>Programtervező informatikus</td>
+                <td>02</td>
+                <td>Elmélet</td>
+            </tr>
+            <tr>
+                <td>Komputergrafika</td>
+                <td>Hétfő | 14:00 - 15:25</td>
+                <td>Online</td>
+                <td>Fazekas Levente Áron</td>
+                <td>Programtervező informatikus</td>
+                <td>03</td>
+                <td>Elmélet</td>
+            </tr>
+            <tr>
+                <td>Informatikatörténet</td>
+                <td>Hétfő | 15:00 - 18:20</td>
+                <td>Hárs terem</td>
+                <td>Janics Tamás</td>
+                <td>Programtervező informatikus</td>
+                <td>04</td>
+                <td>Elmélet</td>
+            </tr>
+             <tr>
+                <td>Preciziós Mezőgazdaság</td>
+                <td>Hétfő | 17:00 - 19:10</td>
+                <td>Online</td>
+                <td>Dr. Matus László</td>
+                <td>Programtervező informatikus</td>
+                <td>05</td>
+                <td>Elmélet</td>
+            </tr>
+            <tr>
+                <td>Alkalmazások fejlesztése projekt labor II.</td>
+                <td>Szerda | 10:00 - 12:55</td>
+                <td>Hárs terem</td>
+                <td>Perlaki Attila</td>
+                <td>Programtervező informatikus</td>
+                <td>06</td>
+                <td>Elmélet</td>
+            </tr>
+            <tr>
+                <td>Webkönyvtárak</td>
+                <td>Szerda | 14:00 - 15:25</td>
+                <td>Kabar terem</td>
+                <td>Dr. Bednarik László</td>
+                <td>Programtervező informatikus</td>
+                <td>07</td>
+                <td>Elmélet</td>
+            </tr>
+            <tr>
+                <td>Báb és színjátékos gyakorlatok</td>
+                <td>Szerda | 14:00 - 17:30</td>
+                <td>Hárs terem</td>
+                <td>Szentirmai László Ferenc</td>
+                <td>Programtervező informatikus</td>
+                <td>08</td>
+                <td>Elmélet</td>
+            </tr>
+            <tr>
+                <td>Hálózati architektúrák és protokollok</td>
+                <td>Szerda | 17:00 - 18:20</td>
+                <td>Kabar terem</td>
+                <td>Janics Tamás</td>
+                <td>Programtervező informatikus</td>
+                <td>09</td>
+                <td>Elmélet</td>
+            </tr>
+            <tr>
+                <td>Valószínűségszámítás és statisztika</td>
+                <td>Csütörtök | 08:00 - 11:15</td>
+                <td>Kabar terem</td>
+                <td>Dr. Földvári Attila</td>
+                <td>Programtervező informatikus</td>
+                <td>10</td>
+                <td>Elmélet</td>
+            </tr>
+            <tr>
+                <td>Oktatás és gamifikáció, videojáték tanulmányok</td>
+                <td>Csütörtök | 12:00 - 14:35</td>
+                <td>Kabar terem</td>
+                <td>Perlaki Attila</td>
+                <td>Programtervező informatikus</td>
+                <td>11</td>
+                <td>Elmélet</td>
+            </tr>
+            <tr>
+                <td>Adatszerkezetek és algoritmusok</td>
+                <td>Csütörtök | 16:00 - 19:10</td>
+                <td>Online</td>
+                <td>Dr. Godó Zoltán</td>
+                <td>Programtervező informatikus</td>
+                <td>12</td>
+                <td>Elmélet</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
