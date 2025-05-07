@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/HMS1DU_Dogworld" xmlns:tns="http://www.example.org/HMS1DU_Dogworld" elementFormDefault="qualified">
+
+
+		<xs:element name="konyvek">
+			<xs:complexType>
+				<xs:sequnence>
+					<xs:element name="konyv" minOccurs="0" maxOccurs="unbounded">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="cim" type="xs:string" minOccurs="0" maxOccurs="1"/>
+								<xs:element name="szerzo" type="xs:string"/>
+								<xs:element name="szereplo" minOccurs="0" maxOccurs="20">
+								
+								
+								
+								
+								</xs:element>
+							
+							</xs:sequence>
+				
+				
+				</xs:complexType>
+				</xs:element>
+				
+				
+				
+				
+				</xs:sequnence>
+			
+			
+			
+			
+			
+			
+			
+			</xs:complexType>
+		
+		
+		
+		</xs:element>
+
+</schema>
