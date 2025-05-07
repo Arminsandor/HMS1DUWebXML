@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<vendeglatas>
+
+
+<etterem ekod="e1">
+	<nev>Etterem</nev>
+	<cim>
+		<varos>Budapest</varos>
+		<utca>Visegrádi</utca>
+		<hazszam>13</hazszam>
+	</cim>
+	<csillag>4</csillag>
+</etterem>
+
+<etterem ekod="e2">
+	<nev>Gundel</nev>
+	<cim>
+		<varos>Budapest</varos>
+		<utca>Gundel Károly</utca>
+		<hazszam>4</hazszam>
+	</cim>
+	<csillag>5</csillag>
+</etterem>
+
+<foszakacs fkod="f1" e_f="e1">
+	<nev>Havas Péter</nev>
+	<vegzettseg>Szakközépiskola</vegzettseg>
+	<vegzettseg>Institut Paul Bocuse</vegzettseg>
+	<eletkor>35</eletkor>
+</foszakacs>
+
+<foszakacs fkod="f2" e_f="e2">
+	<nev>Nagy Károly</nev>
+	<vegzettseg>Le Cordon Bleu</vegzettseg>
+	<eletkor>30</eletkor>
+</foszakacs>
+
+<szakacs szkod="sz1" e_f="e1">
+	<nev>Ötlet Elek</nev>
+	<reszleg>Saucier</reszleg>
+	<vegzettseg>Szakközépiskola</vegzettseg>
+	<vegzettseg>Institut Paul Bocuse</vegzettseg>
+	<vegzettseg>Le Cordon Blue</vegzettseg>
+	
+</szakacs>
+
+<szakacs szkod="sz2" e_f="e2">
+	<nev>Kocsis Tibor</nev>
+	<reszleg>Entremetier</reszleg>
+	<vegzettseg>Szakközépiskola</vegzettseg>
+	<vegzettseg>Le Cordon Blue</vegzettseg>
+	
+</szakacs>
+
+<szakacs szkod="sz3" e_f="e3">
+	<nev>Tálas Levente</nev>
+	<reszleg>Gardemanager</reszleg>
+	<vegzettseg>Szakközépiskola</vegzettseg>
+</szakacs>	
+
+<gyakornok gykod="gy1" e_gy="e1">
+	<nev>Bordás Dávid</nev>
+	<muszak>Délelőtt</muszak>
+	<muszak>Este</muszak>
+	<gyakorlat>
+		<kezdete>2023.06.01</kezdete>
+		<idotartam>2 hónap</idotartam>
+	</gyakorlat>
+</gyakornok>
+
+<gyakornok gykod="gy2" e_gy="e2">
+	<nev>Szilágyi István</nev>
+	<muszak>Délután</muszak>
+	<gyakorlat>
+		<kezdete>2023.06.01</kezdete>
+		<idotartam>4 hónap</idotartam>
+	</gyakorlat>
+</gyakornok>
+
+<gyakornok gykod="gy3" e_gy="e3">
+	<nev>Szentpéterfy Ferenc</nev>
+	<muszak>Délelőtt</muszak>
+	<muszak>Délután</muszak>
+	<gyakorlat>
+		<kezdete>2023.01.01</kezdete>
+		<idotartam>10 hónap</idotartam>
+	</gyakorlat>
+</gyakornok>
+
+<vendeg vkod="v1">
+	<nev>Fekete Péter</nev>
+	<eletkor>21</eletkor>
+	<cim>
+		<varos>Miskolc</varos>
+		<utca>Márton</utca>
+		<hazszam>17</hazszam>
+	</cim>
+</vendeg>
+
+<vendeg vkod="v2">
+	<nev>Bordás Áron</nev>
+	<eletkor>25</eletkor>
+	<cim>
+		<varos>Eger</varos>
+		<utca>Dobó</utca>
+		<hazszam>12</hazszam>
+	</cim>
+</vendeg>
+
+<vendeg vkod="v3">
+	<nev>Kiss Hajnalka</nev>
+	<eletkor>26</eletkor>
+	<cim>
+		<varos>Miskolc</varos>
+		<utca>Egyetem-város</utca>
+		<hazszam>23</hazszam>
+	</cim>
+</vendeg>
+
+<rendeles e_v_vkod="ev1" e_v_ekod="v1">
+	<osszeg>9000</osszeg>
+	<etel>Steak</etel>
+</rendeles>
+
+<rendeles e_v_vkod="ev2" e_v_ekod="v2">
+	<osszeg>8000</osszeg>
+	<etel>Kaviár</etel>
+</rendeles>
+<rendeles e_v_vkod="ev3" e_v_ekod="v3">
+	<osszeg>20000</osszeg>
+	<etel>Zsíros kenyér</etel>
+</rendeles>
+<rendeles e_v_vkod="ev4" e_v_ekod="v4">
+	<osszeg>300</osszeg>
+	<etel>Mackó sajt</etel>
+</rendeles>
+
+</vendeglatas>
